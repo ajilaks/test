@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public void showToast(View view) {
 
         Context context = getApplicationContext();
-        Toast toast = Toast.makeText(context, "Hello Poiic", Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(context, "Hello pppooool", Toast.LENGTH_LONG);
         toast.show();
     }
 

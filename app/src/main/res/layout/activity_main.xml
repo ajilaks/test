@@ -17,10 +17,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:textColor="@android:color/white"
-        android:text="@string/button_label_toast"
         android:onClick="showToast"
-        />
+        android:text="@string/button_label_toast"
+        android:textColor="@android:color/white" />
 
     <TextView
         android:id="@+id/show_count"
