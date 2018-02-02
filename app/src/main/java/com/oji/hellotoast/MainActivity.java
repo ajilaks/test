@@ -10,6 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     int count;
     TextView showCount;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
     public void showToast(View view) {
 
         Context context = getApplicationContext();
-        Toast toast = Toast.makeText(context, "Hello Toast", Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(context, "Hello Poiic", Toast.LENGTH_LONG);
         toast.show();
     }
 
     public void countUp(View view) {
-    count++;
-        if(showCount != null){
-        showCount.setText(Integer.toString(count));
+        count++;
+        if (showCount != null) {
+            showCount.setText(Integer.toString(count));
 
         }
     }
